@@ -1,0 +1,40 @@
+body{ 
+    background-color: black;  /* Esto es del color de la pantalla*/
+    color: white;             /* Esto es el color de las letras */
+}
+
+.logo{
+    width: 60px;  /* Esto es el tamaño de la imagen */
+    height: 60px; /* Esto es el tamaño de la imagen */
+    position: absolute; /* Esto es para que la imagen no se mueva al hacer scroll */
+    top: 20px;
+    left: 0px;
+
+}
+
+.carousel-item img{
+    max-height: 500px; /* Esto es para que la imagen no se salga de la pantalla */
+    width: auto;
+    object-fit: contain; /* Esto es para que la imagen se ajuste al tamaño de la pantalla */
+}
+
+.footer{ 
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    gap: 40px;
+}
+
+.medios-pago{
+    width: 250px; /* Esto es el tamaño de la imagen */
+    max-width: 150%;
+
+}
+
+.divider { 
+    border-color: #666; /* Esto es el color de la linea */
+}
+
+a{
+    color: #ccccff; /* Esto es el color de los enlaces */
+}
