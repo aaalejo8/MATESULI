@@ -11,6 +11,14 @@ body{
     left: 0px;
 
 }
+/* Esto es para que el carrusel no mueva cada vez que cambia de imagen el h2 de abajo*/
+.carousel-inner{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .carousel-item img{
     max-height: 500px; /* Esto es para que la imagen no se salga de la pantalla */
