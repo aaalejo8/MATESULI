@@ -16,6 +16,9 @@ body{
     max-height: 500px; /* Esto es para que la imagen no se salga de la pantalla */
     width: auto;
     object-fit: contain; /* Esto es para que la imagen se ajuste al tamaño de la pantalla */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer{ 
