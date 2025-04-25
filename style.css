@@ -28,6 +28,27 @@ body{
     margin-right: auto;
 }
 
+/*esto para que los bordecitos de las tarjetas sean mas redondeados*/
+.card {
+    background-color: #1c1c1c;
+    border: none;
+    color: white;
+    box-shadow: transform 0.2s ease;
+    border-radius: 15px;
+}
+
+.card>:hover{
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    height: 420px;
+}
+
+
 .footer{ 
     background-color: black;
     padding: 20px;
